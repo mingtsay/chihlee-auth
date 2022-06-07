@@ -1,0 +1,22 @@
+{
+    "name": "mingtsay/chihlee-auth",
+    "description": "Check account status for Chihlee.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MingTsay\\ChihleeAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ming Tsay",
+            "email": "mt@mingtsay.tw"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "php": ">=7.1"
+    }
+}
